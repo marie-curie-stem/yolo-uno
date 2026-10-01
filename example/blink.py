@@ -1,15 +1,20 @@
+""" 
+Blink LED demo: 
+toggles the built-in LED on and off repeatedly to demonstrate basic GPIO control.
+"""
+
 from pins import *
 from yolo_uno import *
 
-pump_D13 = Pins(D13_PIN)
+LED = Pins(D13_PIN)
 
 async def setup():
 
   print('App started')
   for count in range(10):
-    pump_D13.write_digital(1)
+    LED.write_digital(1)
     await asleep_ms(1000)
-    pump_D13.write_digital(0)
+    LED.write_digital(0)
     await asleep_ms(1000)
 
 async def main():
