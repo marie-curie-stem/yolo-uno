@@ -40,11 +40,15 @@ More documentation:
 
 ### CircuitPython
 
-Given the 8 MB PSRAM and 16 MB Flash we can try the [ESP32-S3-DevKitC-1-N8R8](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/) even though we have 16 GB of flash. Someone has to write the correct program.
+Given the 8 MB PSRAM and 16 MB Flash we can try the [ESP32-S3-DevKitC-1-N8R8](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/) even though we have 16 GB of flash. Someone has to write the correct program. This actually worked!
+
+![circuit diagram](./circuitpython/1602/circuit_1602_crop.png)
 
 ### Thonny with Micropython
 
 Once you have the right port, you can write Micropython programs directly on the Yolo UNO, upload and test them.
+
+![display 1602](./2%20Làm%20việc%20với%20module/Màn%20hình%20LCD1602/lcd1602_0x27.jpg)
 
 ## Example programs by OhStem.vm
 
