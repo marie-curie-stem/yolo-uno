@@ -30,6 +30,8 @@ async def main():
 run_loop(main())
 ```
 
+![1602 LCD](./lcd1602_0x27.jpg)
+
 ## 3. Hướng dẫn lắp đặt và kết nối
 
 Mô tả cách lắp đặt các thiết bị và kết nối với bo mạch.
@@ -40,12 +42,20 @@ Mô tả cách lắp đặt các thiết bị và kết nối với bo mạch.
 
 Ví dụ:
 
-| Thiết bị | Cổng kết nối | Chức năng              |
-| -------- | ------------ | ---------------------- |
-| Đèn LED  | D2           | Phát sáng              |
-| Nút nhấn | D3           | Nhận tín hiệu khi nhấn |
 
-![1602 LCD](./lcd1602_0x27.jpg)
+| Thiết bị | Chân kết nối | Chức năng |
+|---|---|---|
+| Màn hình LCD I²C | GPIO11 (SDA) | Gửi và nhận dữ liệu |
+| Màn hình LCD I²C | GPIO12 (SCL) | Cung cấp tín hiệu xung nhịp |
+
+Or
+
+| Device | Connection Pin | Function |
+|---|---|---|
+| I²C LCD | GPIO11 (SDA) | Sends and receives data |
+| I²C LCD | GPIO12 (SCL) | Provides the clock signal |
+
+![connection](./circuit_1602_crop.png)
 
 ## 4. Những điều em đã học được
 

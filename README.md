@@ -52,7 +52,7 @@ Once you have the right port, you can write Micropython programs directly on the
 
 ## Example programs by OhStem.vm
 
-### 1. Chức năng cơ bản
+### [1. Chức năng cơ bản](./1%20Chức%20năng%20cơ%20bản/)
 - Bật tắt đèn led onboard
 - Đổi màu đèn led RGB onboard
 - Nút nhấn onboard
@@ -65,14 +65,14 @@ Once you have the right port, you can write Micropython programs directly on the
 - Quạt thông minh
 - Động cơ Servo
 
-### 3. Dự án IoT
+### [3. Dự án IoT](./3%20Dự%20án%20IoT/)
 - Nhận và gửi thông tin lên server
 
-### 4. Dự án AI
+### [4. Dự án AI](./4%20Dự%20án%20AI/)
 - Nhận diện hình ảnh bằng OhStem App
 - Nhận diện hình ảnh bằng Camera AI
 
-### 5. Robot ảo
+### [5. Robot ảo](./5%20Robot%20ảo/)
 - Robot 2 động cơ
 - Robot 4 bánh mecanum
 
