@@ -1,0 +1,271 @@
+====================================================
+ MicroPython / firmware
+====================================================
+sys.version               : 3.4.0; MicroPython v1.26.1-dirty on 2026-10-04
+sys.implementation        : (name='micropython', version=(1, 26, 1, ''), _machine='Yolo UNO with ESP32S3', _mpy=11014, _build='YOLO_UNO', _thread='GIL')
+sys.platform              : esp32
+sys.byteorder             : little
+sys.maxsize               : 2147483647
+uname.sysname             : esp32
+uname.nodename            : esp32
+uname.release             : 1.26.1
+uname.version             : v1.26.1-dirty on 2026-10-04
+uname.machine             : Yolo UNO with ESP32S3
+build (impl version)      : 1.26.1
+mpy version               : 11014
+float type                : single (32-bit)
+ESP-IDF version           : n/a
+
+====================================================
+ CPU / chip
+====================================================
+CPU freq                  : 240 MHz
+Unique ID                 : a4cb8ff1e5b0
+Reset cause               : PWRON_RESET
+Wake reason               : 0
+Core temperature          : 40.0 C
+Hall sensor               : n/a ('module' object has no attribute 'hall_sensor')
+Uptime (ms)               : 715967
+
+====================================================
+ RAM
+====================================================
+MicroPython heap total    : 8254464 B (7.87 MiB)
+  allocated               : 50176 B (49.0 KiB)
+  free                    : 8204288 B (7.82 MiB)
+
+ESP-IDF HEAP_DATA regions (total, free, largest free block, min free ever):
+  [0]     32767     32031     31744     32031
+  [1]   8388608   8254712   8126464   8254712
+  [2]    252472     74496     73728     74312
+  [3]     22308     21572     21504     21572
+  [4]     32768     32032     31744     32032
+  [5]      8068      7688      7680      7688
+  sum total               : 8736991 B (8.33 MiB)
+  sum free                : 8422531 B (8.03 MiB)
+  PSRAM detected          : yes, ~8388608 B (8.00 MiB)
+
+ESP-IDF HEAP_EXEC regions (total, free, largest free block, min free ever):
+  [0]    252472     74496     73728     74312
+  [1]     22308     21572     21504     21572
+  [2]      8068      7688      7680      7688
+  sum total               : 282848 B (276.2 KiB)
+  sum free                : 103756 B (101.3 KiB)
+
+====================================================
+ Flash (ROM)
+====================================================
+Flash size (chip)         : 16777216 B (16.00 MiB)
+Flash user start          : 0x200000
+
+Partition table (type, subtype, address, size, label, encrypted):
+  type=0 sub= 0 addr=0x010000 size=  3080192 (  3008 KiB) factory enc=False
+  type=1 sub= 2 addr=0x009000 size=    24576 (    24 KiB) nvs enc=False
+  type=1 sub= 1 addr=0x00f000 size=     4096 (     4 KiB) phy_init enc=False
+  type=1 sub=129 addr=0x300000 size= 13631488 ( 13312 KiB) vfs enc=False
+Running partition         : factory
+
+====================================================
+ Filesystem
+====================================================
+/ block size              : 4096
+/ total                   : 13631488 B (13.00 MiB)
+/ free                    : 12718080 B (12.13 MiB)
+/ used                    : 913408 B (892.0 KiB)
+/flash block size         : 4096
+/flash total              : 13631488 B (13.00 MiB)
+/flash free               : 12718080 B (12.13 MiB)
+/flash used               : 913408 B (892.0 KiB)
+/sd block size            : 4096
+/sd total                 : 13631488 B (13.00 MiB)
+/sd free                  : 12718080 B (12.13 MiB)
+/sd used                  : 913408 B (892.0 KiB)
+
+Root directory:
+  BaseMQ.py
+  MQ135.py
+  MQ2.py
+  MQ3.py
+  MQ4.py
+  MQ5.py
+  MQ6.py
+  MQ7.py
+  MQ8.py
+  MQ9.py
+  ads1015.py
+  ai_vision_camera.py
+  angle_sensor.py
+  bmp280.py
+  board_info.py
+  boot.py
+  buzzer.py
+  ci_device_mqtt.py
+  circular_buffer.py
+  constants.py
+  data
+  drivebase.py
+  ds18b20.py
+  era_iot.py
+  gamepad.py
+  hx711.py
+  i2c_motors_driver.py
+  ina219.py
+  ir_blaster.py
+  ir_receiver.py
+  kreier
+  led_matrix.py
+  led_strip.py
+  line_sensor.py
+  logging.py
+  lora_e32.py
+  main.py
+  max30102.py
+  mdv1.py
+  mdv2.py
+  micropyGPS.py
+  mlx90614.py
+  motion_kit.py
+  motor.py
+  mpu6050.py
+  mpu9250.py
+  pcf8563.py
+  ph_meter.py
+  pid.py
+  provision_client.py
+  ps4_receiver.py
+  relay_4chs.py
+  rfid.py
+  rfid_expansion.py
+  rotary_encoder.py
+  sdk_utils.py
+  servo.py
+  servo8chs.py
+  sht30.py
+  smartcity_acd1100.py
+  smartcity_anemometer.py
+  smartcity_lcd1602.py
+  smartcity_pm25.py
+  smartcity_s12sd.py
+  smartcity_sht30.py
+  smartcity_sound_level_meter.py
+  sound_player.py
+  ssd1306.py
+  tcs34725.py
+  tds_meter.py
+  threadsafe_queue_ir.py
+  tm1637.py
+  tm1640.py
+  tof_meter.py
+  vector3d.py
+  veml6040.py
+  veml6040_sensor.py
+  vl53l0x.py
+
+====================================================
+ Non-volatile storage
+====================================================
+NVS                       : accessible
+
+====================================================
+ Network / radio
+====================================================
+WiFi STA MAC              : a4:cb:8f:f1:e5:b0
+WiFi hostname             : mpy-esp32s3
+WiFi TX power             : 20.0
+WiFi AP MAC               : a4:cb:8f:f1:e5:b1
+
+Scanning WiFi networks (a few seconds)...
+Networks found            : 43
+  Finkenkrug🐌           ch=11 rssi= -34 dBm
+  Saigon                   ch=11 rssi= -40 dBm
+  Hofkoh                   ch= 6 rssi= -41 dBm
+  iot                      ch= 6 rssi= -45 dBm
+  Hưng Vượng 1         ch= 6 rssi= -45 dBm
+  西贡                   ch= 6 rssi= -46 dBm
+  UFO Entertainment Post   ch=11 rssi= -49 dBm
+  NanoClaw🦀             ch= 1 rssi= -51 dBm
+  UFO Entetainment Guest   ch= 6 rssi= -63 dBm
+  UFO Entetainment Guest 2.4 ch= 6 rssi= -65 dBm
+Bluetooth LE              : available
+BLE MAC                   : a4:cb:8f:f1:e5:b2
+
+====================================================
+ Pins, buses and peripherals
+====================================================
+Usable GPIO numbers       : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+Board pin names           : []
+ADC pins (gpio, raw u16)  : [(1, 63647), (2, 1712), (3, 64863), (4, 912), (5, 0), (6, 61567), (7, 13155), (8, 10482), (9, 11154), (10, 10418), (11, 65535), (12, 65535), (13, 18388), (14, 4993), (15, 9330), (16, 10386), (17, 9074), (18, 7601), (19, 160), (20, 62463)]
+I2C devices found         : none on tried pairs
+  module neopixel      : yes
+  module dht           : yes
+  module onewire       : yes
+  module ds18x20       : yes
+  module espnow        : yes
+  module esp32         : yes
+  module machine       : yes
+  module framebuf      : yes
+  module ssl           : yes
+  module socket        : yes
+  module json          : yes
+  module asyncio       : yes
+  module usb           : no
+  module usb.device    : no
+  module lcd160cr      : no
+  module btree         : yes
+  module cryptolib     : yes
+  module hashlib       : yes
+  module deflate       : yes
+  module vfs           : yes
+  module uctypes       : yes
+  module micropython   : yes
+
+====================================================
+ MicroPython runtime
+====================================================
+micropython.mem_info():
+stack: 688 out of 15360
+GC: total: 128000, used: 108032, free: 19968, max new split: 8126464
+ No. of 1-blocks: 1148, 2-blocks: 190, max blk sz: 264, max free sz: 1090
+
+micropython.qstr_info():
+qstr pool: n_pool=3, n_qstr=124, n_str_data_bytes=1013, n_total_bytes=2085
+opt_level                 : 0
+
+Builtin modules (help('modules')):
+__main__          deflate           primitives/aadc   ubluetooth
+_asyncio          dht               primitives/barrier                  ucollections
+_boot             dht20             primitives/condition                ucryptolib
+_bundled_libs     ds18x20           primitives/delay_ms                 uctypes
+_espnow           errno             primitives/encoder                  uerrno
+_onewire          esp               primitives/events uhashlib
+_thread           esp32             primitives/pushbutton               uheapq
+_webrepl          espnow            primitives/queue  uio
+abutton           flashbdev         primitives/ringbuf_queue            ujson
+aioespnow         framebuf          primitives/semaphore                ultrasonic
+apa106            gc                primitives/sw_array                 umachine
+array             hashlib           primitives/switch umqtt/robust
+asyncio/__init__  heapq             random            umqtt/simple
+asyncio/core      inisetup          re                umqttsimple
+asyncio/event     io                requests/__init__ uos
+asyncio/funcs     json              rgb_led           upysh
+asyncio/lock      lcd1602           sched             urandom
+asyncio/stream    machine           select            ure
+asyncio_primitives                  machine           setting           urequests
+binascii          math              socket            uselect
+ble               micropython       sound_sensor      usocket
+ble_broadcast     mip/__init__      ssl               ussl
+blerepl           mqtt              struct            ustruct
+bleuart           mqtt_as           sys               utility
+bluetooth         neopixel          threadsafe/__init__                 utime
+boot              network           threadsafe/context                  uwebsocket
+btree             ntptime           threadsafe/message                  vfs
+builtins          oled_i2c          threadsafe/threadsafe_event         webrepl
+button            onewire           threadsafe/threadsafe_queue         webrepl_setup
+camera_ai         os                time              websocket
+cmath             pcf8574           tls               wifi
+collections       pins              uarray            xbot_evo
+cron              platform          uasyncio          yolo_uno
+cryptolib         primitives/__init__                 ubinascii
+Plus any modules on the filesystem
+
+Done.
