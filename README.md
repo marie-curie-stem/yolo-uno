@@ -42,6 +42,10 @@ More documentation:
 
 Given the 8 MB PSRAM and 16 MB Flash we can try the [ESP32-S3-DevKitC-1-N8R8](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/) even though we have 16 GB of flash. Someone has to write the correct program.
 
+### Thonny with Micropython
+
+Once you have the right port, you can write Micropython programs directly on the Yolo UNO, upload and test them.
+
 ## Example programs by OhStem.vm
 
 ### 1. Chức năng cơ bản
@@ -49,9 +53,10 @@ Given the 8 MB PSRAM and 16 MB Flash we can try the [ESP32-S3-DevKitC-1-N8R8](ht
 - Đổi màu đèn led RGB onboard
 - Nút nhấn onboard
 
-### 2. Làm việc với module
+### [2. Làm việc với module](./2%20Làm%20việc%20với%20module/)
+
 - Đèn thông minh
-- Màn hình LCD1602
+- [Màn hình LCD1602](./2%20Làm%20việc%20với%20module/Màn%20hình%20LCD1602/)
 - Giám sát nhiệt độ phòng
 - Quạt thông minh
 - Động cơ Servo
