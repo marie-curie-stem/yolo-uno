@@ -1,0 +1,119 @@
+{
+  "format": "ohstem-circuit",
+  "version": 1,
+  "name": "1602",
+  "circuit": {
+    "components": [
+      {
+        "id": "yoloUno_mv9mziem_1",
+        "type": "yoloUno",
+        "x": 470,
+        "y": 360,
+        "rotation": 0,
+        "params": {
+          "pinStates": {},
+          "bootPressed": false
+        }
+      },
+      {
+        "id": "breadboard_mv9n0359_2",
+        "type": "breadboard",
+        "x": 940,
+        "y": 280,
+        "rotation": 0,
+        "params": {}
+      }
+    ],
+    "wires": [
+      {
+        "id": "wire_mv9n2013_4",
+        "from": {
+          "componentId": "yoloUno_mv9mziem_1",
+          "portId": "gnd_r"
+        },
+        "to": {
+          "componentId": "breadboard_mv9n0359_2",
+          "portId": "tn1"
+        },
+        "breakpoints": [
+          {
+            "x": 710,
+            "y": 330
+          },
+          {
+            "x": 710,
+            "y": 202
+          }
+        ],
+        "color": "#34495e"
+      },
+      {
+        "id": "wire_mv9n2d5l_5",
+        "from": {
+          "componentId": "yoloUno_mv9mziem_1",
+          "portId": "3v3_r"
+        },
+        "to": {
+          "componentId": "breadboard_mv9n0359_2",
+          "portId": "tp1"
+        },
+        "breakpoints": [
+          {
+            "x": 700,
+            "y": 315
+          },
+          {
+            "x": 700,
+            "y": 190
+          }
+        ],
+        "color": "#e74c3c"
+      },
+      {
+        "id": "wire_mv9n35ub_6",
+        "from": {
+          "componentId": "yoloUno_mv9mziem_1",
+          "portId": "sda"
+        },
+        "to": {
+          "componentId": "breadboard_mv9n0359_2",
+          "portId": "g1"
+        },
+        "breakpoints": [
+          {
+            "x": 690,
+            "y": 299
+          },
+          {
+            "x": 690,
+            "y": 237
+          }
+        ],
+        "color": "#f1c40f"
+      },
+      {
+        "id": "wire_mv9n394i_7",
+        "from": {
+          "componentId": "yoloUno_mv9mziem_1",
+          "portId": "scl"
+        },
+        "to": {
+          "componentId": "breadboard_mv9n0359_2",
+          "portId": "f1"
+        },
+        "breakpoints": [
+          {
+            "x": 680,
+            "y": 285
+          },
+          {
+            "x": 680,
+            "y": 225
+          }
+        ],
+        "color": "#27ae60"
+      }
+    ]
+  },
+  "scripts": {}
+}
